@@ -3,6 +3,14 @@
     <div class="slds-card__body_inner">
       <!-- Start bear list -->
       <template if:true={bears.data}>
+        <lightning-input type="search"
+          onchange={handleSearchTermChange}
+          variant="label-hidden"
+          class="slds-m-bottom_small"
+          label="Search"
+          placeholder="Search for bears"
+          value={searchTerm}>
+        </lightning-input>
         <lightning-layout multiple-rows="true" pull-to-boundary="small">
           <template for:each={bears.data} for:item="bear">
             <lightning-layout-item key={bear.Id} size="3" class="slds-p-around_x-small">
@@ -26,6 +34,12 @@
             </lightning-layout-item>
           </template>
         </lightning-layout>
+        <!-- No bears found -->
+        <template if:false={hasResults}>
+          <div class="slds-align_absolute-center slds-m-vertical_small">
+            This is beary disturbing, we did not find results...
+          </div>
+        </template>
       </template>
       <!-- End bear list -->
       <!-- Data failed to load -->
