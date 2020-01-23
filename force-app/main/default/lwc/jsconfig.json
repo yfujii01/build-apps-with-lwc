@@ -20,6 +20,9 @@
             ],
             "c/bearTile": [
                 "bearTile/bearTile.js"
+            ],
+            "c/bearMap": [
+                "bearMap/bearMap.js"
             ]
         }
     },
