@@ -1,0 +1,25 @@
+{
+  "name": "build-apps-with-lwc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yfujii01/build-apps-with-lwc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yfujii01/build-apps-with-lwc/issues"
+  },
+  "homepage": "https://github.com/yfujii01/build-apps-with-lwc#readme",
+  "devDependencies": {
+    "prettier": "1.19.1",
+    "prettier-plugin-apex": "1.1.0"
+  },
+  "dependencies": {}
+}
