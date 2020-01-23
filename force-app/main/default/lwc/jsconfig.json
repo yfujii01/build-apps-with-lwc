@@ -17,6 +17,9 @@
             ],
             "c/bearList": [
                 "bearList/bearList.js"
+            ],
+            "c/bearTile": [
+                "bearTile/bearTile.js"
             ]
         }
     },
